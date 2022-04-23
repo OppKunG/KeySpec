@@ -107,7 +107,7 @@ export default function App() {
         </div>
       </navbar>
 
-      {/* หน้า product */}
+      {/* หน้า Product */}
       <product>
         <div
           className="id-product"
@@ -258,7 +258,7 @@ export default function App() {
         </a>
       </product>
 
-      {/* หน้า rating */}
+      {/* หน้า Rating */}
       <rating>
         {/* <div
           className="id-product-rating"
@@ -452,7 +452,7 @@ export default function App() {
         </a> */}
       </rating>
 
-      {/* หน้า community */}
+      {/* หน้า Community */}
       <community>
         {/* <div class="flex items-stretch ">
           <a
@@ -569,7 +569,7 @@ export default function App() {
         </div> */}
       </community>
 
-      {/* หน้า profile */}
+      {/* หน้า Profile */}
       <profile>
         {/* <div class="flex items-stretch space-x-7">
           <div
