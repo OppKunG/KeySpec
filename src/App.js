@@ -5,10 +5,10 @@ export default function App() {
       class=" bg-bg-color absolute h-full w-full overflow-auto"
     >
       {/* Navbar */}
-      <navbar class="flex items-center justify-between flex-wrap bg-navbar-color p-0">
+      <navbar class="flex items-center justify-between flex-wrap bg-navbar-color">
         <a
           href="/"
-          class="flex items-center flex-shrink-0 text-white mr-6 px-5"
+          class="flex items-center flex-shrink-0 text-white mr-28 ml-16"
         >
           <svg
             className="logo"
@@ -22,7 +22,7 @@ export default function App() {
           </svg>
           <a
             href="/"
-            class=" font-semibold text-2xl tracking-tight hover:text-navbar-ptr-color"
+            class="ml-5 font-semibold text-2xl tracking-tight hover:text-navbar-ptr-color"
           >
             KeySpec
           </a>
@@ -41,7 +41,7 @@ export default function App() {
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class=" lg:flex-grow">
-            <div className="searchBox" class=" xl:w-96 px-5 py-3">
+            <div className="searchBox" class=" xl:w-5/6 px-3 py-3">
               <div class="input-group relative flex whitespace-nowrap items-stretch w-full rounded-3xl border-1 bg-profile-color">
                 <span
                   class="input-group-text flex items-center px-3 py-1 text-base font-normal text-center whitespace-nowrap rounded"
@@ -109,28 +109,28 @@ export default function App() {
 
       {/* หน้า Product */}
       <product>
-        <div
+        {/* <div
           className="id-product"
-          class="absolute w-2/3 h-80 right-60 top-1/6 mt-5 bg-bg-profile rounded-xl "
+          class="absolute w-2/3 h-80 right-60 top-1/6 mt-10 bg-bg-profile rounded-xl "
         >
           <a
             href="id-product-pic"
             className="product-pic"
-            class="absolute w-96 h-52 left-5 top-1/6 m-5 bg-keyboard7-pic bg-cover rounded-xl hover:brightness-95"
+            class="absolute w-96 h-52 left-5 top-1/6 ml-5 mt-7 bg-keyboard7-pic bg-cover rounded-xl hover:brightness-95"
           >
             {""}
           </a>
           <div
             className="product-name"
-            class="text-white font-bold text-4xl text-right mt-5 mr-36"
+            class="text-white font-bold text-4xl text-right mt-5 mr-32"
           >
             Keyboard KeySpec
           </div>
-          <div class="flex items-stretch space-x-5 ml-80 mt-5 text-xl text-sub-title-color font-semibold">
+          <div class="flex items-stretch space-x-5 ml-96 mt-5 text-xl text-sub-title-color font-semibold">
             <a
               href="id-dealer"
               className="dealer-name"
-              class="ml-32 hover:text-navbar-ptr-color"
+              class="ml-44 hover:text-navbar-ptr-color"
             >
               Aomsupp
             </a>
@@ -154,8 +154,8 @@ export default function App() {
               500.00 Baht
             </div>
           </div>
-          <div class="flex items-stretch space-x-5 ml-80 mt-20 text-xl text-sub-title-color font-semibold">
-            <div className="quantity" class="ml-32 mt-1">
+          <div class="flex items-stretch space-x-5 ml-96 mt-20 text-xl text-sub-title-color font-semibold">
+            <div className="quantity" class="ml-44 mt-1">
               Quantity
             </div>
             <div
@@ -177,9 +177,9 @@ export default function App() {
 
           <div
             className="add-to-cart-btn"
-            class="absolute w-1/6 h-12 right-80 top-1/6 mt-5 bg-navbar-ptr-color rounded-xl hover:brightness-75"
+            class="absolute w-1/6 h-1/6 right-80 top-1/6 mt-5 bg-navbar-ptr-color rounded-xl hover:brightness-75"
           >
-            <div class="text-center text-white text-xl font-bold mt-2">
+            <div class="text-center text-white text-xl font-bold mt-3">
               Add to Cart
             </div>
           </div>
@@ -187,13 +187,13 @@ export default function App() {
           <a
             href="cart"
             className="buy-now-btn"
-            class="absolute w-1/6 h-12 right-32 top-1/6 mt-5 bg-navbar-ptr-color rounded-xl hover:brightness-75"
+            class="absolute w-1/6 h-1/6 right-28 top-1/6 mt-5 bg-navbar-ptr-color rounded-xl hover:brightness-75"
           >
-            <div class="text-center text-white text-xl font-bold mt-2">
+            <div class="text-center text-white text-xl font-bold mt-3">
               Buy Now
             </div>
           </a>
-          <div class="mt-5 ml-32 flex items-stretch space-x-10">
+          <div class="mt-6 ml-32 flex items-stretch space-x-10">
             <div
               className="fav-icon"
               class="w-10 h-10 rounded-full bg-bg-profile brightness-125 hover:bg-navbar-ptr-color"
@@ -218,21 +218,34 @@ export default function App() {
 
         <div
           className="product-detail"
-          class="absolute w-2/3 h-48 right-60 bottom-5 bg-bg-profile rounded-xl "
+          class="absolute w-2/3 h-1/3 right-60 bottom-5 bg-bg-profile rounded-xl "
         >
           <div
             className="product_details"
-            class="w-full h-20 bg-transparent 
+            class="w-full h-1/4 bg-transparent 
           text-white font-bold leading-10 px-4 py-2 text-2xl"
           >
             Product details
           </div>
 
           <div
-            class="absolute w-auto h-28 left-4 right-4 top-1/3 bg-transparent overflow-auto
+            class="absolute w-auto h-2/3 left-4 right-4 top-1/6 bg-transparent overflow-auto
           text-white text-base"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -255,14 +268,14 @@ export default function App() {
             hover:brightness-50 font-bold text-5xl px-3"
         >
           {" "}
-        </a>
+        </a> */}
       </product>
 
       {/* หน้า Rating */}
       <rating>
         {/* <div
           className="id-product-rating"
-          class="absolute w-2/3 h-1/3 right-60 top-1/6 mt-3 bg-bg-profile rounded-xl "
+          class="absolute w-2/3 h-1/3 right-60 top-1/6 mt-5 bg-bg-profile rounded-xl "
         >
           <div class="absolute w-full h-14 rounded-xl bg-bg-profile brightness-90">
             <div
@@ -367,16 +380,16 @@ export default function App() {
           </div>
         </div>
 
-        <div class="absolute w-2/3 h-1/2 bg-bg-profile rounded-xl right-60 bottom-3 mt-5">
-          <div class="absolute w-full h-12 rounded-xl bg-bg-profile brightness-90">
+        <div class="absolute w-2/3 h-1/2 bg-bg-profile top-1/2 rounded-xl right-60">
+          <div class="absolute w-full h-1/6 rounded-xl bg-bg-profile brightness-90">
             <div
               className="sub-title"
-              class="text-white text-2xl font-semibold mt-2 ml-8"
+              class="text-white text-2xl font-semibold mt-3 ml-8"
             >
               Product Reviews
             </div>
           </div>
-          <div class="absolute w-full h-1/3 rounded-xl mt-14 bg-bg-profile brightness-90">
+          <div class="absolute w-full h-1/4 rounded-xl mt-20 bg-bg-profile brightness-90">
             <div className="review_1" class="text-white mt-3 ml-8">
               <div class="flex items-stretch space-x-1 mt-1">
                 <div class="w-4 h-4 rounded-full bg-star-orange-icon bg-cover"></div>
@@ -393,7 +406,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          <div class="absolute w-full h-1/3 rounded-xl mt-44 bg-bg-profile brightness-90">
+          <div class="absolute w-full h-1/4 rounded-xl mt-52 bg-bg-profile brightness-90">
             <div className="review_2" class="text-white mt-3 ml-8">
               <div class="flex items-stretch space-x-1 mt-1">
                 <div class="w-4 h-4 rounded-full bg-star-orange-icon bg-cover"></div>
@@ -458,13 +471,13 @@ export default function App() {
           <a
             href="id-profile"
             className="user-pic1"
-            class="absolute w-40 h-40 left-60 top-1/6 mt-5 bg-bg-profile rounded-full"
+            class="absolute w-40 h-40 left-60 top-1/6 mt-10 bg-bg-profile rounded-full"
           >
             <div class="absolute w-36 h-36 left-0 top-1/6 m-2 bg-profile1-pic bg-cover rounded-full hover:brightness-50"></div>
           </a>
           <div
             className="community-keyboard1"
-            class="absolute w-1/2 h-40 right-60 top-1/6 mt-5 bg-bg-profile rounded-xl
+            class="absolute w-1/2 h-40 right-60 top-1/6 mt-10 bg-bg-profile rounded-xl
             text-white font-bold leading-5 px-3 py-2 text-xl"
           >
             OppKunG
@@ -493,13 +506,13 @@ export default function App() {
           <a
             href="id-profile"
             className="user-pic2"
-            class="absolute w-40 h-40 left-60 top-1/3 mt-16 bg-bg-profile rounded-full"
+            class="absolute w-40 h-40 left-60 top-1/3 mt-20 bg-bg-profile rounded-full"
           >
             <div class="absolute w-36 h-36 left-0 top-1/6 m-2 bg-profile2-pic bg-cover rounded-full hover:brightness-50"></div>
           </a>
           <div
             className="community-keyboard1"
-            class="absolute w-1/2 h-40 right-60 top-1/3 mt-16 bg-bg-profile rounded-xl
+            class="absolute w-1/2 h-40 right-60 top-1/3 mt-20 bg-bg-profile rounded-xl
             text-white font-bold leading-5 px-3 py-2 text-xl"
           >
             Toto
@@ -528,13 +541,13 @@ export default function App() {
           <a
             href="id-profile"
             className="user-pic3"
-            class="absolute w-40 h-40 left-60 bottom-10 mt-10 bg-bg-profile rounded-full"
+            class="absolute w-40 h-40 left-60 bottom-12 bg-bg-profile rounded-full"
           >
-            <div class="absolute w-36 h-36 left-0 top-1/6 m-2 bg-profile3-pic bg-cover rounded-full hover:brightness-50"></div>
+            <div class="absolute w-36 h-36 m-2 bg-profile3-pic bg-cover rounded-full hover:brightness-50"></div>
           </a>
           <div
             className="community-keyboard1"
-            class="absolute w-1/2 h-40 right-60 bottom-10 mt-10 bg-bg-profile rounded-xl
+            class="absolute w-1/2 h-40 right-60 bottom-12 bg-bg-profile rounded-xl
             text-white font-bold leading-5 px-3 py-2 text-xl"
           >
             Phai
@@ -571,27 +584,29 @@ export default function App() {
 
       {/* หน้า Profile */}
       <profile>
-        {/* <div class="flex items-stretch space-x-7">
+        <div class="flex items-stretch space-x-7">
           <div
             className="profile-pic"
-            class="absolute w-60 h-60 left-60 top-1/6 m-10 bg-bg-profile rounded-full"
+            class="absolute w-72 h-72 left-52 top-1/6 mt-12 ml-20 bg-bg-profile rounded-full"
           >
-            <div class="absolute w-56 h-56 left-0 top-1/6 m-2 bg-profile1-pic bg-cover rounded-full"></div>
+            <div class="absolute w-64 h-64 left-0 top-1/6 m-4 bg-profile1-pic bg-cover rounded-full"></div>
           </div>
           <div
             className="profile-detail"
-            class="absolute w-96 h-60 right-1/4 top-1/6 m-10 bg-bg-profile rounded-xl "
+            class="absolute w-1/3 h-1/3 right-1/4 top-1/6 m-16 bg-bg-profile rounded-xl "
           >
-            <div
-              className="username"
-              class="absolute w-full h-40 bg-transparent 
-          text-white font-bold leading-10 px-4 py-1 text-2xl "
-            >
-              OppKunG
+            <div class="absolute w-full h-14 rounded-xl bg-bg-profile brightness-90">
+              <div
+                className="username"
+                class="absolute w-full h-1/6 bg-transparent 
+          text-white font-bold leading-10 px-4 mt-2 text-2xl "
+              >
+                OppKunG
+              </div>
             </div>
             <div
               className="edit-profile"
-              class="absolute w-10 h-40 bg-transparent right-3 top-3"
+              class="absolute w-10 h-40 bg-transparent right-3 mt-4"
             >
               <a
                 href="edit"
@@ -601,9 +616,16 @@ export default function App() {
               </a>
             </div>
             <div
-              class="absolute w-auto h-40 left-4 right-4 top-1/4 bg-transparent overflow-auto
+              class="absolute w-auto h-2/3 left-4 right-4 top-1/4 bg-transparent overflow-auto
           text-white text-base"
             >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -615,39 +637,45 @@ export default function App() {
           </div>
           <a
             href="add-comment"
-            class="absolute w-14 h-14 left-3/4 top-1/6 m-10 bg-bg-profile rounded-full
-            text-white  hover:text-white hover:bg-navbar-ptr-color font-bold text-5xl px-3"
+            class="absolute w-14 h-14 left-3/4 top-1/6 mt-16 bg-bg-profile rounded-full
+              hover:text-white hover:bg-navbar-ptr-color "
           >
-            +
+            <div class="text-white font-bold text-5xl ml-2.5">+</div>
           </a>
+        
           <div
             className="my-keyboard"
-            class="absolute w-2/3 h-60 right-60 bottom-5 bg-bg-profile rounded-xl
-            text-white font-bold leading-5 px-3 py-3 text-xl"
+            class="absolute w-2/3 h-1/3 left-56 bottom-10 bg-bg-profile rounded-xl
+            "
           >
-            My Keyboard Design
-            <div class="w-full h-full bg-transparent flex items-stretch space-x-7 px-5 py-5">
+            <div class="absolute w-full h-14 rounded-xl bg-bg-profile brightness-90">
+            <div class="text-white font-bold leading-5 text-xl m-5">
+              My Keyboard Design
+            </div>
+            </div>
+
+            <div class="w-full h-full bg-transparent flex items-stretch space-x-14 mt-20 ml-20">
               <a
                 href="id-profile_keyboard1"
-                class="w-1/3 h-5/6 bg-keyboard1-pic bg-cover rounded-xl hover:brightness-50"
+                class="w-1/4 h-1/2 bg-keyboard1-pic bg-cover rounded-xl hover:brightness-50"
               >
                 {" "}
               </a>
               <a
                 href="id-profile_keyboard2"
-                class="w-1/3 h-5/6 bg-keyboard2-pic bg-cover rounded-xl hover:brightness-50"
+                class="w-1/4 h-1/2 bg-keyboard2-pic bg-cover rounded-xl hover:brightness-50"
               >
                 {" "}
               </a>
               <a
                 href="id-profile_keyboard3"
-                class="w-1/3 h-5/6 bg-keyboard3-pic bg-cover rounded-xl hover:brightness-50"
+                class="w-1/4 h-1/2 bg-keyboard3-pic bg-cover rounded-xl hover:brightness-50"
               >
                 {" "}
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </profile>
     </body>
   );
